@@ -1,29 +1,22 @@
-import React from "react";
-import "./App.css";
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import './App.css';
+import LoginForm from './pages/LoginForm';
+import SignUp from './pages/SignUp';
 
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import Wrapper from "./components/Wrapper";
-
-import Signup from "./pages/Signup";
-import Search from "./pages/Search";
-
-const App = () => {
-  document.title = "Wikipedia Searcher";
+function App() {
   return (
-    <Router>
-      <div>
-        <Navbar />
-        <Wrapper>
-          <Route exact path="/" component={Search} />
-          <Route exact path="/signup" component={Signup} />
-          <Route exact path="/search" component={Search} />
-        </Wrapper>
-        <Footer />
-      </div>
-    </Router>
+  <Router>
+    <Switch>
+      <Route exact path="/login">
+        <LoginForm />
+      </Route>
+      <Route exact path="/signup">
+        <SignUp />
+      </Route>
+    </Switch>
+  </Router>
   );
-};
+}
 
 export default App;
