@@ -4,10 +4,12 @@ import './App.css';
 import LoginForm from './pages/LoginForm';
 import SignUp from './pages/SignUp';
 import FormSection from "./pages/FormSection";
+import Nav from "./components/Nav"
 
 function App() {
   return (
   <Router>
+    
     <Switch>
       <Route exact path="/">
         <LoginForm />
@@ -15,8 +17,10 @@ function App() {
       <Route exact path="/signup">
         <SignUp />
       </Route>
+      
       <Route exact path="/form">
-        <FormSection></FormSection>
+        <Nav/>
+        <FormSection/>
       </Route>
     </Switch>
   </Router>
