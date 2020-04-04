@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import { Button, Form, Grid, Header, Icon, Image, Message, Segment } from 'semantic-ui-react';
 import Logo from '../images/serviceIndustry.png'
-import '../fonts/DeathStar-VmWB.ttf'
+import "../fonts/Starjedi.ttf";
 import Stars from '../images/stars2.jpg'
 
 const LoginForm = () => (
