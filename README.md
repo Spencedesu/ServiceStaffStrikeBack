@@ -1,4 +1,4 @@
-<a href="http://fvcproductions.com"><img src="./Line-cook_Confessional/src/images/serviceIndustry2.png" alt="App Logo"></a>
+<a href=""><img src="./Line-cook_Confessional/src/images/serviceIndustry2.png" alt="App Logo"></a>
 
 
 # Service Staff Strike Back
@@ -6,7 +6,8 @@
 > An opportunity for service industry professionals to give their perspective on customer interaction.
 
 
-***INSERT ANOTHER GRAPHIC HERE***
+
+***PREVIEW***
 
 [![INSERT YOUR GRAPHIC HERE]("")]()
 
@@ -26,12 +27,11 @@
 - react-router-dom
 
 
-## Table of Contents (Optional)
+## Table of Contents
 
-> If your `README` has a lot of info, section headers might be nice.
 
 - [Service Staff Strike Back](#service-staff-strike-back)
-  - [Table of Contents (Optional)](#table-of-contents-optional)
+  - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
     - [Clone](#clone)
     - [Setup](#setup)
@@ -97,7 +97,6 @@ $ npm start
 
 ## Team
 
-> Or Contributors/People
 
 | <a href="https://github.com/Spencedesu" target="_blank">**Spencer**</a>  | <a href="https://github.com/mr-andersen523" target="_blank">**Chase**</a>  | <a href="https://github.com/Jeretc79" target="_blank">**Jeret**</a> | <a href="https://github.com/maxskewes" target="_blank">**Max**</a> |
 | :---: |:---:| :---:| :---:
