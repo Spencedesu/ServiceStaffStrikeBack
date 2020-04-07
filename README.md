@@ -99,10 +99,10 @@ $ npm start
 
 > Or Contributors/People
 
-| <a href="https://github.com/Spencedesu" target="_blank">**Spencer**</a>  | <a href="https://github.com/mr-andersen523" target="_blank">**Chase**</a>  | <a href="https://github.com/Jeretc79" target="_blank">**Jeret**</a> |
-| :---: |:---:| :---:|
-| [![FVCproductions](https://avatars1.githubusercontent.com/Spencedesu?s=200)](https://github.com/Spencedesu)       | [![FVCproductions](https://avatars1.githubusercontent.com/mr-andersen523?s=200)](https://github.com/mr-andersen523) | [![FVCproductions](https://avatars1.githubusercontent.com/Jeretc79?s=200)](https://github.com/Jeretc79)  |
-| <a href="https://github.com/Spencedesu" target="_blank">`https://github.com/Spencedesu`</a> | <a href="https://github.com/mr-andersen523" target="_blank">`https://github.com/mr-andersen523`</a>  | <a href="https://github.com/Jeretc79" target="_blank">`https://github.com/Jeretc79`</a> |
+| <a href="https://github.com/Spencedesu" target="_blank">**Spencer**</a>  | <a href="https://github.com/mr-andersen523" target="_blank">**Chase**</a>  | <a href="https://github.com/Jeretc79" target="_blank">**Jeret**</a> | <a href="https://github.com/maxskewes" target="_blank">**Max**</a> |
+| :---: |:---:| :---:| :---:
+| [![FVCproductions](https://avatars1.githubusercontent.com/Spencedesu?s=200)](https://github.com/Spencedesu)       | [![FVCproductions](https://avatars1.githubusercontent.com/mr-andersen523?s=200)](https://github.com/mr-andersen523) | [![FVCproductions](https://avatars1.githubusercontent.com/Jeretc79?s=200)](https://github.com/Jeretc79)  | [![FVCproductions](https://avatars1.githubusercontent.com/maxskewes?s=200)](https://github.com/maxskewes) |
+| <a href="https://github.com/Spencedesu" target="_blank">`https://github.com/Spencedesu`</a> | <a href="https://github.com/mr-andersen523" target="_blank">`https://github.com/mr-andersen523`</a>  | <a href="https://github.com/Jeretc79" target="_blank">`https://github.com/Jeretc79`</a> | <a href="https://github.com/maxskewes" target="_blank">**Max**</a> |
 
 
 
