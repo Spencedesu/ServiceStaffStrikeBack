@@ -105,10 +105,10 @@ $ npm start
 |<a href="https://github.com/maxskewes" target="_blank">**Max**</a> 
 |
 | :---: |:---:| :---:| :---:|
-| [![FVCproductions](https://avatars.githubusercontent.com/Spencedesu?s-200)](http://fvcproductions.com)    
-| [![FVCproductions](https://avatars.githubusercontent.com/mr-andersen523?s-200)](http://fvcproductions.com) 
-| [![FVCproductions](https://avatars.githubusercontent.com/Jeretc79?s-200)](http://fvcproductions.com)
-| [![FVCproductions](https://avatars.githubusercontent.com/maxskewes?s-200)](http://fvcproductions.com)    
+| [![FVCproductions](https://avatars1.githubusercontent.com/Spencedesu?s=200)](http://fvcproductions.com)    
+| [![FVCproductions](https://avatars1.githubusercontent.com/mr-andersen523?s=200)](http://fvcproductions.com) 
+| [![FVCproductions](https://avatars1.githubusercontent.com/Jeretc79?s=200)](http://fvcproductions.com)
+| [![FVCproductions](https://avatars1.githubusercontent.com/maxskewes?s=200)](http://fvcproductions.com)    
 |
 | <a href="https://github.com/Spencedesu" target="_blank">`https://github.com/Spencedesu`</a> 
 | <a href="https://github.com/mr-andersen523" target="_blank">`https://github.com/mr-andersen523`</a> 
@@ -123,4 +123,3 @@ $ npm start
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- Copyright 2015 © <a href="http://fvcproductions.com" target="_blank">FVCproductions</a>.
