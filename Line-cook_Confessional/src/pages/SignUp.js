@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter as Link } from "react-router-dom";
 import { Button, Form, Grid, Header, Image, Message, Segment, Icon } from 'semantic-ui-react';
 import Logo from '../images/serviceIndustry.png'
 import '../fonts/DeathStar-VmWB.ttf'

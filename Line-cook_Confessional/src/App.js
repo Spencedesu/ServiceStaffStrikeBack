@@ -1,17 +1,25 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
-import './App.css';
+
 import LoginForm from './pages/LoginForm';
 import SignUp from './pages/SignUp';
 import FormSection from "./pages/FormSection";
-import Nav from "./components/Nav"
+import Nav from "./components/Nav";
+import Main from "./pages/Main"
+
+import "./App.css"
 
 function App() {
   return (
   <Router>
-    
-    <Switch>
+
+<Switch>
       <Route exact path="/">
+        <Main/>
+      </Route>
+    
+
+      <Route exact path="/login">
         <LoginForm />
       </Route>
       <Route exact path="/signup">
@@ -23,6 +31,8 @@ function App() {
         <FormSection/>
       </Route>
     </Switch>
+
+    
   </Router>
   );
 }
