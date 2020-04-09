@@ -27,8 +27,8 @@ function App() {
       </Route>
       
       <Route exact path="/form">
-        <Nav/>
-        <FormSection/>
+    {/* this where i need to put the new review save
+     */}
       </Route>
     </Switch>
 
