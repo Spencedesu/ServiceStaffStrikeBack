@@ -3,8 +3,7 @@ import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
 import LoginForm from './pages/LoginForm';
 import SignUp from './pages/SignUp';
-import FormSection from "./pages/FormSection";
-import Nav from "./components/Nav";
+// import FormSection from "./pages/FormSection";
 import Main from "./pages/Main"
 
 import "./App.css"
