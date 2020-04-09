@@ -4,9 +4,11 @@ import { Button, Form, Grid, Header, Icon, Image, Message, Segment } from 'seman
 import Logo from '../images/serviceIndustry.png'
 import "../fonts/Starjedi.ttf";
 import Stars from '../images/stars2.jpg'
+import TopNav from '../components/TopNav';
 
 const LoginForm = () => (
 <div style={{}}>
+  <TopNav/>
   <Grid textAlign='center' style={{ height: '102vh', backgroundImage: "url(" + Stars +")" }} verticalAlign='middle'>
     <Grid.Column style={{ maxWidth: 500 }}>
               

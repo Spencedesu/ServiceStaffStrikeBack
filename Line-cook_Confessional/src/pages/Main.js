@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import FormSection from "../components/FormSection";
+import TopNav from "../components/TopNav"
 
 import Slider from "react-slick";
 
@@ -16,9 +18,12 @@ import {
   Header,
   Icon,
   Input,
+  List,
+  ListItem,
   Menu,
   Container,
   Segment,
+  GridRow,
 
 
 } from "semantic-ui-react";
@@ -44,23 +49,8 @@ class Main extends Component {
     return (
       <div className="Main">
         <Grid padded className="tablet computer only">
-
           {/* Top Nav */}
-
-          <Menu borderless inverted fluid fixed="top">
-            <Menu.Item header as="a">
-              Project name
-            </Menu.Item>
-            <Menu.Menu position="right">
-              <Menu.Item>
-                <Input placeholder="Search..." size="small" />
-              </Menu.Item>
-              <Menu.Item as="a">Dashboard</Menu.Item>
-              <Menu.Item as="a">Settings</Menu.Item>
-              <Menu.Item as="a">Profile</Menu.Item>
-              <Menu.Item as="a">Help</Menu.Item>
-            </Menu.Menu>
-          </Menu>
+          <TopNav/>
         </Grid>
 
         {/* Top Nav -MOBILE */}
@@ -118,7 +108,7 @@ class Main extends Component {
               <Divider  />
               <Menu.Item active href="/login" as="a">Login</Menu.Item>
               <Menu.Item href="/signup" as="a">Signup</Menu.Item>
-              <Menu.Item as="a">One more nav</Menu.Item>
+
               
               <Divider hidden />
               <Menu.Item active href="https://www.google.com/maps"as="a" target="_blank">Google API</Menu.Item>
@@ -137,8 +127,8 @@ class Main extends Component {
           {/* Main Page Header/Title*/}
 
               <Grid.Row>
-                <Header dividing size="huge" as="h1">
-                  Dashboard
+                <Header dividing size="huge" as="h2">
+                  Welcome to the site that gives the yelped at, a chance to plead their case
                 </Header>
               </Grid.Row>
               <Grid.Row>
@@ -159,8 +149,8 @@ class Main extends Component {
                 right might not load/display properly due to web browser
                 security rules.
               </p>
-              <Button primary size="huge">
-                Sign up today
+              <Button href="./signup" primary size="huge">
+                Sign up today!
               </Button>
             </Container>
           </Segment>
@@ -213,27 +203,9 @@ class Main extends Component {
               </Grid.Row>
               <Grid.Row>
               {/* CONTENT HERE (FORM?)*/}
-              <Header textAlign="center">
-                The truth comes out..
-              </Header>
-              <Form size="huge">
-                <Form.Input
-                name="reviewerName" 
-                placeholder="name"/>
-                <Form.Input
-                name="establishment" 
-                placeholder="establishment"/>
-                <Form.TextArea
-                name="review"
-                placeholder="Write a review."
-                />
-                <Button
-                // onClick={handleFormSubmit}
-                fluid size="large"
-                > 
-                  Submit your Story</Button>
-              </Form>
+                <FormSection/>
               </Grid.Row>
+
           </Grid.Column>
         </Grid>
 

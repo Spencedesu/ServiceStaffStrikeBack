@@ -1,10 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
-
+import Responses from "./pages/Responses";
 import LoginForm from './pages/LoginForm';
 import SignUp from './pages/SignUp';
-import FormSection from "./pages/FormSection";
-import Nav from "./components/Nav";
+// import FormSection from "./pages/FormSection";
 import Main from "./pages/Main"
 
 import "./App.css"
@@ -17,8 +16,6 @@ function App() {
       <Route exact path="/">
         <Main/>
       </Route>
-    
-
       <Route exact path="/login">
         <LoginForm />
       </Route>
@@ -26,7 +23,8 @@ function App() {
         <SignUp />
       </Route>
       
-      <Route exact path="/form">
+      <Route exact path="/responses">
+        <Responses/>
     {/* this where i need to put the new review save
      */}
       </Route>

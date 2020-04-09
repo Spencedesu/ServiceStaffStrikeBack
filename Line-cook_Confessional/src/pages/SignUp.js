@@ -1,4 +1,5 @@
 import React from 'react';
+import TopNav from "../components/TopNav"
 import { BrowserRouter as Link } from "react-router-dom";
 import { Button, Form, Grid, Header, Image, Message, Segment, Icon } from 'semantic-ui-react';
 import Logo from '../images/serviceIndustry.png'
@@ -6,7 +7,9 @@ import '../fonts/DeathStar-VmWB.ttf'
 import Stars from '../images/stars2.jpg'
 
 const SignUp = () => (
+  
 <>
+<TopNav/>
   <Grid textAlign='center' style={{ height: '102vh', backgroundImage: "url(" + Stars +")" }} verticalAlign='middle'>
     <Grid.Column style={{ maxWidth: 500 }}>
         
