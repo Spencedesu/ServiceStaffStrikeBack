@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import FormSection from "../components/FormSection";
+import TopNav from "../components/TopNav"
 
 import Slider from "react-slick";
 
@@ -48,23 +49,8 @@ class Main extends Component {
     return (
       <div className="Main">
         <Grid padded className="tablet computer only">
-
           {/* Top Nav */}
-
-          <Menu borderless inverted fluid fixed="top">
-            <Menu.Item header as="a">
-              Project name
-            </Menu.Item>
-            <Menu.Menu position="right">
-              <Menu.Item>
-                <Input placeholder="Search..." size="small" />
-              </Menu.Item>
-              <Menu.Item as="a">Dashboard</Menu.Item>
-              <Menu.Item as="a">Settings</Menu.Item>
-              <Menu.Item as="a">Profile</Menu.Item>
-              <Menu.Item as="a">Help</Menu.Item>
-            </Menu.Menu>
-          </Menu>
+          <TopNav/>
         </Grid>
 
         {/* Top Nav -MOBILE */}
@@ -141,8 +127,8 @@ class Main extends Component {
           {/* Main Page Header/Title*/}
 
               <Grid.Row>
-                <Header dividing size="huge" as="h1">
-                  Dashboard
+                <Header dividing size="huge" as="h2">
+                  Welcome to the site that gives the yelped at, a chance to plead their case
                 </Header>
               </Grid.Row>
               <Grid.Row>

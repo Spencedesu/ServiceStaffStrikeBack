@@ -68,6 +68,7 @@ function handleFormSubmit(event){
           > 
             Submit your Story</Button>
         </Form>
+        {/* Not sure whats going on below this.. */}
         {postedPost.length ? (
           <List>
             {postedPost.map(post => {

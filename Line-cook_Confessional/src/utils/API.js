@@ -2,7 +2,7 @@ import axios from "axios";
 
 export default {
   //retrieves posts... For display on the screen
-  getPost: function() {
+  getPosts: function() {
     return axios.get("api.posts")
   },
   // Saves a post
