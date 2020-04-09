@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import Slider from "react-slick";
 
+
 import "semantic-ui-css/semantic.min.css";
 
 
@@ -10,6 +11,7 @@ import "semantic-ui-css/semantic.min.css";
 import {
   Button,
   Divider,
+  Form,
   Grid,
   Header,
   Icon,
@@ -108,21 +110,20 @@ class Main extends Component {
           >
             <Menu vertical borderless fluid text>
               <Menu.Item active as="a">
-                Overview
+                Responses
               </Menu.Item>
-              <Menu.Item as="a">Reports</Menu.Item>
-              <Menu.Item as="a">Analytics</Menu.Item>
-              <Menu.Item as="a">Export</Menu.Item>
-              <Divider hidden />
-              <Menu.Item as="a">Nav item</Menu.Item>
-              <Menu.Item as="a">Nav item again</Menu.Item>
+              <Menu.Item as="a">By Recent</Menu.Item>
+              <Menu.Item as="a">Favorites</Menu.Item>
+              <Menu.Item href="https://www.reddit.com/r/KitchenConfidential/"as="a" target="_blank">r/</Menu.Item>
+              <Divider  />
+              <Menu.Item active href="/login" as="a">Login</Menu.Item>
+              <Menu.Item href="/signup" as="a">Signup</Menu.Item>
               <Menu.Item as="a">One more nav</Menu.Item>
-              <Menu.Item as="a">Another nav item</Menu.Item>
-              <Menu.Item as="a">More navigation</Menu.Item>
+              
               <Divider hidden />
-              <Menu.Item as="a">Macintoch</Menu.Item>
-              <Menu.Item as="a">Linux</Menu.Item>
-              <Menu.Item as="a">Windows</Menu.Item>
+              <Menu.Item active href="https://www.google.com/maps"as="a" target="_blank">Google API</Menu.Item>
+              <Menu.Item href="https://www.youtube.com/watch?v=U9DyHthJ6LA" target="_blank" as="a">True stories of Cooks who lost it </Menu.Item>
+              <Menu.Item as="a">LineCook Confessional</Menu.Item>
             </Menu>
           </Grid.Column>
           <Grid.Column
@@ -207,13 +208,31 @@ class Main extends Component {
           {/* Section after carousel*/}
               <Grid.Row>
                 <Header dividing size="huge" as="h1">
-                  Section title
+                  Write a Review
                 </Header>
               </Grid.Row>
               <Grid.Row>
-                
               {/* CONTENT HERE (FORM?)*/}
-
+              <Header textAlign="center">
+                The truth comes out..
+              </Header>
+              <Form size="huge">
+                <Form.Input
+                name="reviewerName" 
+                placeholder="name"/>
+                <Form.Input
+                name="establishment" 
+                placeholder="establishment"/>
+                <Form.TextArea
+                name="review"
+                placeholder="Write a review."
+                />
+                <Button
+                // onClick={handleFormSubmit}
+                fluid size="large"
+                > 
+                  Submit your Story</Button>
+              </Form>
               </Grid.Row>
           </Grid.Column>
         </Grid>
