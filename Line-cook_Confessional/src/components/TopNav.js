@@ -5,8 +5,8 @@ function TopNav() {
   return(
     <div>
     <Menu borderless inverted fluid fixed="top">
-          <Menu.Item src="../../"header as="a">
-            Service Staff Strike Back
+          <Menu.Item header as="a">
+           <img alt="ssStrikesback"src={require("../images/serviceIndustry.png")}/>
           </Menu.Item>
           <Menu.Menu position="right">
             <Menu.Item>

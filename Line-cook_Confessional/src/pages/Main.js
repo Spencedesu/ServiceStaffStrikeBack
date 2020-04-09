@@ -24,8 +24,6 @@ import {
   Container,
   Segment,
   GridRow,
-
-
 } from "semantic-ui-react";
 
 
