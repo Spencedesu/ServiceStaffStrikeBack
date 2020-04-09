@@ -4,6 +4,9 @@ import Slider from "react-slick";
 
 import "semantic-ui-css/semantic.min.css";
 
+
+//Import semantic components here if you want to use them in the page
+
 import {
   Button,
   Divider,
@@ -11,10 +14,7 @@ import {
   Header,
   Icon,
   Input,
-  Image,
-  Label,
   Menu,
-  Table,
   Container,
   Segment,
 
@@ -24,6 +24,8 @@ import {
 
 class Main extends Component {
 
+
+//settings for the carousel
 
   render() {
     const slickSettings = {
@@ -36,9 +38,13 @@ class Main extends Component {
       swipeToSlide: true,
     };
 
+
     return (
       <div className="Main">
         <Grid padded className="tablet computer only">
+
+          {/* Top Nav */}
+
           <Menu borderless inverted fluid fixed="top">
             <Menu.Item header as="a">
               Project name
@@ -54,6 +60,9 @@ class Main extends Component {
             </Menu.Menu>
           </Menu>
         </Grid>
+
+        {/* Top Nav -MOBILE */}
+
         <Grid padded className="mobile only">
           <Menu borderless inverted fluid fixed="top">
             <Menu.Item header as="a">
@@ -66,7 +75,6 @@ class Main extends Component {
                   inverted
                   icon
                   toggle
-
                 >
                   <Icon name="content" />
                 </Button>
@@ -77,7 +85,6 @@ class Main extends Component {
               fluid
               inverted
               vertical
-
             >
               <Menu.Item as="a">Dashboard</Menu.Item>
               <Menu.Item as="a">Settings</Menu.Item>
@@ -90,6 +97,8 @@ class Main extends Component {
             </Menu>
           </Menu>
         </Grid>
+
+        {/* Side-Nav */}
         <Grid padded>
           <Grid.Column
             tablet={3}
@@ -124,6 +133,8 @@ class Main extends Component {
             id="content"
           >
 
+          {/* Main Page Header/Title*/}
+
               <Grid.Row>
                 <Header dividing size="huge" as="h1">
                   Dashboard
@@ -131,7 +142,11 @@ class Main extends Component {
               </Grid.Row>
               <Grid.Row>
 
-              <Slider {...slickSettings} className="slide">
+            {/* Carousel*/}
+
+              <Slider {...slickSettings} className="slide"> 
+              
+              {/* Slide*/}
           <Segment inverted vertical textAlign="center">
             <Container text className="active">
               <Header inverted as="h1">
@@ -148,6 +163,8 @@ class Main extends Component {
               </Button>
             </Container>
           </Segment>
+
+          {/* Slide*/}
           <Segment inverted vertical textAlign="center">
             <Container text className="active">
               <Header inverted as="h1">
@@ -163,6 +180,8 @@ class Main extends Component {
               </Button>
             </Container>
           </Segment>
+
+          {/* Slide*/}
           <Segment inverted vertical textAlign="center">
             <Container text className="active">
               <Header inverted as="h1">
@@ -178,44 +197,27 @@ class Main extends Component {
               </Button>
             </Container>
           </Segment>
+
         </Slider>
 
+      </Grid.Row>
 
+        <Divider section hidden />
 
-              </Grid.Row>
-
-              <Divider section hidden />
-
+          {/* Section after carousel*/}
               <Grid.Row>
                 <Header dividing size="huge" as="h1">
                   Section title
                 </Header>
               </Grid.Row>
               <Grid.Row>
-                <Table singleLine striped selectable unstackable>
-                  <Table.Header>
-                    <Table.Row>
-                      <Table.HeaderCell>#</Table.HeaderCell>
-                      <Table.HeaderCell>Header</Table.HeaderCell>
-                      <Table.HeaderCell>Header</Table.HeaderCell>
-                      <Table.HeaderCell>Header</Table.HeaderCell>
-                      <Table.HeaderCell>Header</Table.HeaderCell>
-                    </Table.Row>
-                  </Table.Header>
-                  <Table.Body>
-                    <Table.Row>
-                      <Table.Cell>1.001</Table.Cell>
-                      <Table.Cell>Lorem</Table.Cell>
-                      <Table.Cell>ipsum</Table.Cell>
-                      <Table.Cell>dolor</Table.Cell>
-                      <Table.Cell>sit</Table.Cell>
-                    </Table.Row>
-                    
-                  </Table.Body>
-                </Table>
+                
+              {/* CONTENT HERE (FORM?)*/}
+
               </Grid.Row>
           </Grid.Column>
         </Grid>
+
       </div>
     );
   }
