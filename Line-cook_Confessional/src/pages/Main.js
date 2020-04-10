@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import FormSection from "../components/FormSection";
-import TopNav from "../components/TopNav"
+import TopNav from "../components/TopNav";
+import SideNav from "../components/SideNav";
 
 import Slider from "react-slick";
 
 
 import "semantic-ui-css/semantic.min.css";
-
 
 //Import semantic components here if you want to use them in the page
 
@@ -55,9 +55,6 @@ class Main extends Component {
 
         <Grid padded className="mobile only">
           <Menu borderless inverted fluid fixed="top">
-            <Menu.Item header as="a">
-              Project Name
-            </Menu.Item>
             <Menu.Menu position="right">
               <Menu.Item>
                 <Button
@@ -90,30 +87,10 @@ class Main extends Component {
 
         {/* Side-Nav */}
         <Grid padded>
-          <Grid.Column
-            tablet={3}
-            computer={3}
-            only="tablet computer"
-            id="sidebar"
-          >
-            <Menu vertical borderless fluid text>
-              <Menu.Item active as="a">
-                Responses
-              </Menu.Item>
-              <Menu.Item as="a">By Recent</Menu.Item>
-              <Menu.Item as="a">Favorites</Menu.Item>
-              <Menu.Item href="https://www.reddit.com/r/KitchenConfidential/"as="a" target="_blank">r/</Menu.Item>
-              <Divider  />
-              <Menu.Item active href="/login" as="a">Login</Menu.Item>
-              <Menu.Item href="/signup" as="a">Signup</Menu.Item>
+        <SideNav />
 
-              
-              <Divider hidden />
-              <Menu.Item active href="https://www.google.com/maps"as="a" target="_blank">Google API</Menu.Item>
-              <Menu.Item href="https://www.youtube.com/watch?v=U9DyHthJ6LA" target="_blank" as="a">True stories of Cooks who lost it </Menu.Item>
-              <Menu.Item as="a">LineCook Confessional</Menu.Item>
-            </Menu>
-          </Grid.Column>
+
+      {/* Main Page Header/Title*/}
           <Grid.Column
             mobile={16}
             tablet={13}
@@ -121,9 +98,6 @@ class Main extends Component {
             floated="right"
             id="content"
           >
-
-          {/* Main Page Header/Title*/}
-
               <Grid.Row>
                 <Header dividing size="huge" as="h2">
                   Welcome to the site that gives the yelped at, a chance to plead their case
