@@ -12,7 +12,7 @@ function SideNav() {
       >
         <Menu vertical borderless fluid text>
         <Menu.Item>
-          <Input placeholder='Search...' />
+          <Input id='searchbar' placeholder='Search...' />
         </Menu.Item>
           <Menu.Item active as="a">
             Responses
@@ -21,8 +21,7 @@ function SideNav() {
           <Menu.Item as="a">Favorites</Menu.Item>
           <Menu.Item href="https://www.reddit.com/r/KitchenConfidential/"as="a" target="_blank">r/</Menu.Item>
           <Divider  />
-          <Menu.Item active href="/login" as="a">Login</Menu.Item>
-          <Menu.Item href="/signup" as="a">Signup</Menu.Item>
+
 
           
           <Divider hidden />

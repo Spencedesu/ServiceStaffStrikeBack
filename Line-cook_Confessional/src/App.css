@@ -88,7 +88,7 @@ body {
   .slide .ui.inverted.vertical.segment {
     padding-top: 16rem;
     padding-bottom: 4rem;
-    height: 600px;
+    height: 525px;
   }
   
   .slide .ui.text.container {
@@ -194,6 +194,10 @@ body {
   #sidebar .ui.menu > a.item:hover {
     background-color: #eee;
     color: #23527c;
+  }
+
+  #searchbar {
+    margin: 5px 10px 5px 10px;
   }
   
   #content {
