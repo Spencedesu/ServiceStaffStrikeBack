@@ -1,7 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Link } from "react-router-dom";
-import { Button, Form, Grid, Header, Icon, Image, Message, Segment } from 'semantic-ui-react';
-import Logo from '../images/serviceIndustry.png'
+import { Button, Form, Grid, Header, Icon, Image, Segment } from 'semantic-ui-react';
+import Logo from '../images/Service Staff/servicestaff3.png'
 import "../fonts/Starjedi.ttf";
 import Stars from '../images/stars2.jpg'
 import TopNav from '../components/TopNav';
@@ -9,7 +8,7 @@ import TopNav from '../components/TopNav';
 const LoginForm = () => (
 <div style={{}}>
   <TopNav/>
-  <Grid textAlign='center' style={{ height: '102vh', backgroundImage: "url(" + Stars +")" }} verticalAlign='middle'>
+  <Grid textAlign='center' style={{ height: '102.25vh', backgroundImage: "url(" + Stars +")" }} verticalAlign='middle'>
     <Grid.Column style={{ maxWidth: 500 }}>
               
     {/* TODO: link close icon to homepage */}
@@ -34,9 +33,6 @@ const LoginForm = () => (
           </Button>
         </Segment>
       </Form>
-      <Message style={{backgroundColor:'#ececec'}}>
-        New to us? <Link to="/signup">Sign Up</Link>
-      </Message>
     </Grid.Column>
   </Grid>
 </div>

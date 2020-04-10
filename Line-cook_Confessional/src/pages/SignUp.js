@@ -1,8 +1,7 @@
 import React from 'react';
 import TopNav from "../components/TopNav"
-import { BrowserRouter as Link } from "react-router-dom";
-import { Button, Form, Grid, Header, Image, Message, Segment, Icon } from 'semantic-ui-react';
-import Logo from '../images/serviceIndustry.png'
+import { Button, Form, Grid, Header, Image, Segment, Icon } from 'semantic-ui-react';
+import Logo from '../images/Service Staff/servicestaff3.png'
 import '../fonts/DeathStar-VmWB.ttf'
 import Stars from '../images/stars2.jpg'
 
@@ -10,7 +9,7 @@ const SignUp = () => (
   
 <>
 <TopNav/>
-  <Grid textAlign='center' style={{ height: '102vh', backgroundImage: "url(" + Stars +")" }} verticalAlign='middle'>
+  <Grid textAlign='center' style={{ height: '100vh', marginTop:'0px', backgroundImage: "url(" + Stars +")" }} verticalAlign='middle'>
     <Grid.Column style={{ maxWidth: 500 }}>
         
     {/* TODO: link close icon to homepage */}
@@ -37,9 +36,6 @@ const SignUp = () => (
           </Button>
         </Segment>
       </Form>
-      <Message style={{backgroundColor:'#ececec'}}>
-        Returning User? <Link to="/login">Login</Link>
-      </Message>
     </Grid.Column>
   </Grid>
   </>
