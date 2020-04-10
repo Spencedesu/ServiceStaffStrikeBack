@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Form, Grid, Header, Icon, Image, Segment } from 'semantic-ui-react';
+import { Button, Form, Grid, Header, Image, Segment } from 'semantic-ui-react';
 import Logo from '../images/Service Staff/servicestaff3.png'
 import "../fonts/Starjedi.ttf";
 import Stars from '../images/stars2.jpg'

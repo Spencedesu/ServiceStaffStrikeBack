@@ -8,7 +8,7 @@ function TopNav() {
   return(
     <Menu borderless inverted fluid fixed="top">
           <Menu.Item header as="a">
-          <img src={StaffLogo} style={{width:'100px', height:'35px'}}/></Menu.Item>
+          <img src={StaffLogo} style={{width:'100px', height:'35px'}} alt=""/></Menu.Item>
           {/*Below is style for servicestaff2.png --- you would just need to change the Staff logo import above  */}
           {/* <img src={StaffLogo} style={{width:'50px', height:'20px'}}/></Menu.Item> */}
           {/* <Menu.Item>Service Staff Strike Back</Menu.Item> */}
