@@ -9,12 +9,9 @@ const SignUp = () => (
   
 <>
 <TopNav/>
-  <Grid textAlign='center' style={{ height: '100vh', marginTop:'0px', backgroundImage: "url(" + Stars +")" }} verticalAlign='middle'>
+  <Grid textAlign='center' verticalAlign='middle' style={{ height: '100vh', marginTop:'0px', backgroundImage: "url(" + Stars +")" }} verticalAlign='middle'>
     <Grid.Column style={{ maxWidth: 500 }}>
         
-    {/* TODO: link close icon to homepage */}
-
-    <Icon corner link name='close' color='grey' size='large' style={{float:'right'}} />
       <Header textAlign='center'>
         <Image src={Logo} style={{height:'200px', width:'400px'}}/>
       </Header>
