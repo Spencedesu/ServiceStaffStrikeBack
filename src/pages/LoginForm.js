@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Form, Grid, Header, Icon, Image, Segment } from 'semantic-ui-react';
+import { Button, Form, Grid, Header, Image, Segment } from 'semantic-ui-react';
 import Logo from '../images/Service Staff/servicestaff3.png'
 import "../fonts/Starjedi.ttf";
 import Stars from '../images/stars2.jpg'
@@ -10,10 +10,7 @@ const LoginForm = () => (
   <TopNav/>
   <Grid textAlign='center' style={{ height: '102.25vh', backgroundImage: "url(" + Stars +")" }} verticalAlign='middle'>
     <Grid.Column style={{ maxWidth: 500 }}>
-              
-    {/* TODO: link close icon to homepage */}
 
-    <Icon corner link name='close' color='grey' size='large' style={{float:'right'}} />
       <Header textAlign='center'>
         <Image src={Logo} style={{height:'200px', width:'400px'}}/>
       </Header>

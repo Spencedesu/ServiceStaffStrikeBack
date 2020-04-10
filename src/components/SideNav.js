@@ -1,19 +1,22 @@
 import React from "react";
-import {Menu, Grid, Divider, Input, Icon, Dropdown} from "semantic-ui-react";
+import {Menu, Grid, Divider, Icon, Dropdown} from "semantic-ui-react";
+import Searchbar from "./Searchbar";
 
 
 function SideNav() {
     return(
-        <Grid.Column
+        <Grid.Column 
         tablet={3}
         computer={3}
         only="tablet computer"
         id="sidebar"
       >
         <Menu vertical borderless fluid text>
-        <Menu.Item>
-        <Input id='searchbar' placeholder='Search...'></Input>
+
+        <Menu.Item style={{textAlign: "center"}}>
+        <Searchbar placeholder="Search..." />
         </Menu.Item>
+
           <Menu.Item active as="a">
             Responses
           </Menu.Item>
