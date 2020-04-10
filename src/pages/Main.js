@@ -167,19 +167,6 @@ class Main extends Component {
 
       </Grid.Row>
 
-        <Divider section hidden />
-
-          {/* Section after carousel*/}
-              <Grid.Row>
-                <Header dividing size="huge" as="h1">
-                  Write a Review
-                </Header>
-              </Grid.Row>
-              <Grid.Row>
-              {/* CONTENT HERE (FORM?)*/}
-                <FormSection/>
-              </Grid.Row>
-
           </Grid.Column>
         </Grid>
 
