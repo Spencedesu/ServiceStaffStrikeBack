@@ -197,13 +197,13 @@ body {
   }
 
   #searchbar {
-    margin: 5px 10px 5px 10px;
+    margin: 0px 10px 5px 10px;
   }
   
   #content {
-    padding-top: 56px;
+    padding-top: 80px;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 15px;
   }
   
   #content h1 {
