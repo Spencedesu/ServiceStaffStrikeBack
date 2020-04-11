@@ -99,9 +99,9 @@ class Main extends Component {
             id="content"
           >
               <Grid.Row>
-                {/* <Header dividing size="huge" as="h2">
+                <Header dividing size="huge" as="h2">
                   Welcome to the site that gives the yelped at, a chance to plead their case
-                </Header> */}
+                </Header>
               </Grid.Row>
               <Grid.Row>
 
@@ -164,6 +164,19 @@ class Main extends Component {
         </Slider>
 
       </Grid.Row>
+
+        <Divider section hidden />
+
+          {/* Section after carousel*/}
+              <Grid.Row>
+                <Header dividing size="huge" as="h1">
+                  Write a Review
+                </Header>
+              </Grid.Row>
+              <Grid.Row>
+              {/* CONTENT HERE (FORM?)*/}
+                <FormSection/>
+              </Grid.Row>
 
           </Grid.Column>
         </Grid>

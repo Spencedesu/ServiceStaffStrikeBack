@@ -1,12 +1,12 @@
 import React from "react";
 import TopNav from "../components/TopNav";
 import { Header, Grid, Segment} from "semantic-ui-react"
-import FormSection from "../components/FormSection";
 
-function Responses() {
+function ShareStory() {
   return(
     <div>
       <Grid padded>
+        <TopNav/>
         <Grid.Column
         mobile={16}
         computer= {16}>
@@ -17,7 +17,6 @@ function Responses() {
             </Header>
           </Grid.Row>
           <Grid.Row>
-            <FormSection/>
             <Segment style={{minHeight:400}}>Well Hello There
 
             </Segment>
@@ -31,4 +30,4 @@ function Responses() {
   )
 }
 
-export default Responses;
+export default ShareStory;

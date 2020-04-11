@@ -1,7 +1,6 @@
 import React from "react";
 import TopNav from "../components/TopNav";
-import { Header, Grid, Segment} from "semantic-ui-react"
-import FormSection from "../components/FormSection";
+import {List, Header, Grid, Input, Segment} from "semantic-ui-react"
 
 function Responses() {
   return(
@@ -17,7 +16,6 @@ function Responses() {
             </Header>
           </Grid.Row>
           <Grid.Row>
-            <FormSection/>
             <Segment style={{minHeight:400}}>Well Hello There
 
             </Segment>

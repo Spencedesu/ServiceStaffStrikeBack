@@ -3,7 +3,7 @@ import TopNav from "../components/TopNav";
 import { Header, Grid, Segment} from "semantic-ui-react"
 import FormSection from "../components/FormSection";
 
-function Responses() {
+function LineCook() {
   return(
     <div>
       <Grid padded>
@@ -31,4 +31,4 @@ function Responses() {
   )
 }
 
-export default Responses;
+export default LineCook;
