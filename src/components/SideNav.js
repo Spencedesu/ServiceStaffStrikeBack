@@ -17,7 +17,7 @@ function SideNav() {
         <Searchbar placeholder="Search..." />
         </Menu.Item>
 
-          <Menu.Item active as="a">
+          <Menu.Item active href="/responses" as="a">
             Responses
           </Menu.Item>
           <Menu.Item as="a"><Icon name='sort numeric up'/>By Recent</Menu.Item>
@@ -34,10 +34,10 @@ function SideNav() {
           </Dropdown.Menu>
         </Dropdown>
           </Menu.Item>
-          <Menu.Item as="a">Strike Back! (Say Your Peace)</Menu.Item>
-          <Menu.Item as="a">Share a Story</Menu.Item>
-          <Menu.Item as="a">LineCook Confessional</Menu.Item>
-          <Menu.Item as="a">Servers HATE...</Menu.Item>
+          <Menu.Item href="/piece" as="a">Strike Back! (Say Your Peace)</Menu.Item>
+          <Menu.Item href="/story"as="a">Share a Story</Menu.Item>
+          <Menu.Item href="/linecook"as="a">LineCook Confessional</Menu.Item>
+          <Menu.Item href="/serversHate"as="a">Servers HATE...</Menu.Item>
           <Divider  />
 
 
