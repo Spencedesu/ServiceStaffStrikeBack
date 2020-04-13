@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import FormSection from "../components/FormSection";
 import TopNav from "../components/TopNav";
 import SideNav from "../components/SideNav";
 
@@ -19,6 +18,7 @@ import {
   Icon,
   Input,
   List,
+  Image,
   ListItem,
   Menu,
   Container,
@@ -106,37 +106,32 @@ class Main extends Component {
               <Grid.Row>
 
             {/* Carousel*/}
-
+              <Container>
               <Slider {...slickSettings} className="slide"> 
               
               {/* Slide*/}
-          <Segment inverted vertical textAlign="center">
+          <Segment inverted vertical textAlign="center" id="slide1">
+          
             <Container text className="active">
-              <Header inverted as="h1">
-                Example headline.
+              <Header inverted as="h1" style={{fontFamily:'Top Secret', color: 'firebrick'}}>
+                Line Cook Confidential
               </Header>
               <p>
-                Note: If you're viewing this page via a <code>file://</code>
-                URL, the "next" and "previous" Glyphicon buttons on the left and
-                right might not load/display properly due to web browser
-                security rules.
-              </p>
-              <Button href="./signup" primary size="huge">
-                Sign up today!
-              </Button>
+                Check-Out our Featured Thread of the Week!
+              </p>              
             </Container>
           </Segment>
+          
+
 
           {/* Slide*/}
           <Segment inverted vertical textAlign="center">
             <Container text className="active">
-              <Header inverted as="h1">
-                Another example headline.
+              <Header inverted as="h1" style={{fontFamily:'Starjedi'}} >
+                Strike Back!
               </Header>
               <p>
-                Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                Donec id elit non mi porta gravida at eget metus. Nullam id
-                dolor id nibh ultricies vehicula ut id elit.
+                This is where you can voice your side of any horrible or unjust review
               </p>
               <Button primary size="huge">
                 Learn more
@@ -147,21 +142,20 @@ class Main extends Component {
           {/* Slide*/}
           <Segment inverted vertical textAlign="center">
             <Container text className="active">
-              <Header inverted as="h1">
-                One more for good measure
+              <Header inverted as="h1" style={{fontFamily:'Naughty Scratch'}}>
+              Servers <span style={{fontFamily:'Naughty Scratch'}}> Hate...</span>
               </Header>
               <p>
-                Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                Donec id elit non mi porta gravida at eget metus. Nullam id
-                dolor id nibh ultricies vehicula ut id elit.
+                Share your BIGGEST peeves of working in the service industry. 
               </p>
               <Button primary size="huge">
-                Browse gallery
+                Take Me There!
               </Button>
             </Container>
           </Segment>
 
         </Slider>
+        </Container>
 
       </Grid.Row>
 
