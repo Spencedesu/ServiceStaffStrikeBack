@@ -35,6 +35,7 @@ class Main extends Component {
   render() {
     const slickSettings = {
       autoplay: true,
+      autoplaySpeed: 4000,
       dots: true,
       speed: 1000,
       pauseOnHover: true,
@@ -109,7 +110,23 @@ class Main extends Component {
               <Container>
               <Slider {...slickSettings} className="slide"> 
               
-              {/* Slide*/}
+                        {/* Slide*/}
+          <Segment inverted vertical textAlign="center">
+            <Container text className="active">
+              <Header inverted as="h1" style={{fontFamily:'Starjedi'}} >
+                Welcome to SSSB!
+              </Header>
+              <p>
+                The first platform created exclusively for the Service Staff. 
+              </p>
+
+              <p1> <Icon name='arrow left'/>
+               Check out other peoples stories, share your own, or...Strike Back!
+              </p1>
+            </Container>
+          </Segment>
+          
+          {/* Slide*/}
           <Segment inverted vertical textAlign="center" id="slide1">
           
             <Container text className="active">
@@ -117,8 +134,12 @@ class Main extends Component {
                 Line Cook Confidential
               </Header>
               <p>
-                Check-Out our Featured Thread of the Week!
-              </p>              
+                Checkout our Featured Thread of the Week!
+              </p> 
+
+              <Button primary size="huge" href="/linecook">
+                Take Me There!
+              </Button>            
             </Container>
           </Segment>
           
@@ -133,8 +154,8 @@ class Main extends Component {
               <p>
                 This is where you can voice your side of any horrible or unjust review
               </p>
-              <Button primary size="huge">
-                Learn more
+              <Button primary size="huge" href = "/piece">
+                Take Me There!
               </Button>
             </Container>
           </Segment>
@@ -148,7 +169,7 @@ class Main extends Component {
               <p>
                 Share your BIGGEST peeves of working in the service industry. 
               </p>
-              <Button primary size="huge">
+              <Button primary size="huge" href="/serversHate">
                 Take Me There!
               </Button>
             </Container>

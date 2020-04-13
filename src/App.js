@@ -1,12 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import Responses from "./pages/Responses";
+import About from "./pages/About";
 import LoginForm from './pages/LoginForm';
 import SignUp from './pages/SignUp';
-import SayPiece from './pages/SayPiece'
+import SayPiece from './pages/SayPiece';
 // import FormSection from "./pages/FormSection";
-import Main from "./pages/Main"
-import "./App.css"
+import Main from "./pages/Main";
+import "./App.css";
 import ShareStory from './pages/ShareAStory';
 import LineCook from './pages/LinecookConfessional';
 import ServersHate from './pages/ServersHATE';
@@ -18,6 +19,9 @@ function App() {
 <Switch>
       <Route exact path="/">
         <Main/>
+      </Route>
+      <Route exact path="/about">
+        <About/>
       </Route>
       <Route exact path="/login">
         <LoginForm />

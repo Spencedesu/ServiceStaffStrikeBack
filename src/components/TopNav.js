@@ -14,6 +14,7 @@ function TopNav() {
           {/* <Menu.Item>Service Staff Strike Back</Menu.Item> */}
           <Menu.Menu position="right">
             <Menu.Item href = "/" as="a">Home</Menu.Item>
+            <Menu.Item href = "/about" as="a">About</Menu.Item>
             <Menu.Item>   
               <Button.Group>
                   <Button href="/login" as="a">Login</Button>
