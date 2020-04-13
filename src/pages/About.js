@@ -10,15 +10,13 @@ function About() {
 <TopNav />
 <Message style={{paddingTop: "4em"}} size="massive">
     
-          <Container>
+            
+<Container>
             <Header size="huge" as="h1" style={{fontFamily:'Starjedi'}}>
-              About us
+              Welcome to SSSB.
             </Header>
             <p>
-              This is a template for a simple marketing or informational
-              website. It includes a large callout called a jumbotron and three
-              supporting pieces of content. Use it as a starting point to create
-              something more unique.
+              The first platform created exclusively for the service staff. Check out other industry folks' stories, share your own, or ...Strike Back!
             </p>
           </Container>
         </Message>
@@ -27,32 +25,23 @@ function About() {
             <Divider hidden />
           <Grid stackable columns="three">
             <Grid.Column>
-              <Header as="h1" style={{fontFamily:'Starjedi'}}>Heading</Header>
+              <Header as="h1" style={{fontFamily:'Starjedi'}}>Haters gonna hate</Header>
               <p>
-                Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
-                tellus ac cursus commodo, tortor mauris condimentum nibh, ut
-                fermentum massa justo sit amet risus. Etiam porta sem malesuada
-                magna mollis euismod. Donec sed odio dui.
+               Who will critique the critics? Yelp offers people a forum to voice praise or dissent for local businesses. But to get the truth, we also need to hear it from service side.
               </p>
 
             </Grid.Column>
             <Grid.Column>
-              <Header as="h1" style={{fontFamily:'Starjedi'}}>Heading</Header>
+              <Header as="h1" style={{fontFamily:'Starjedi'}}>Strike Back!</Header>
               <p>
-                Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
-                tellus ac cursus commodo, tortor mauris condimentum nibh, ut
-                fermentum massa justo sit amet risus. Etiam porta sem malesuada
-                magna mollis euismod. Donec sed odio dui.
+               Dealing with the public you're bound to have your share of friendly people and trash-talkers. Now share your side of the story.
               </p>
 
             </Grid.Column>
             <Grid.Column>
-              <Header as="h1" style={{fontFamily:'Starjedi'}}>Heading</Header>
+              <Header as="h1" style={{fontFamily:'Starjedi'}}>Linecook Confessional</Header>
               <p>
-                Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
-                tellus ac cursus commodo, tortor mauris condimentum nibh, ut
-                fermentum massa justo sit amet risus. Etiam porta sem malesuada
-                magna mollis euismod. Donec sed odio dui.
+               Stories submitted by the service staff. Read others' recounts of horror stories of nightmare patrons and truths of what goes on behind the scenes.
               </p>
 
             </Grid.Column>
