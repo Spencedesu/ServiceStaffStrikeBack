@@ -114,14 +114,12 @@ class Main extends Component {
               {/* Slide*/}
           <Segment inverted vertical textAlign="center">
             <Container text className="active">
-              <Header inverted as="h1">
-                Example headline.
+            
+             <Header inverted as="h1">
+                Say Your Piece.
               </Header>
               <p>
-                Note: If you're viewing this page via a <code>file://</code>
-                URL, the "next" and "previous" Glyphicon buttons on the left and
-                right might not load/display properly due to web browser
-                security rules.
+                Been given an unfair review? Say your side of the story.
               </p>
               <Button href="./signup" primary size="huge">
                 Sign up today!
@@ -133,12 +131,10 @@ class Main extends Component {
           <Segment inverted vertical textAlign="center">
             <Container text className="active">
               <Header inverted as="h1">
-                Another example headline.
+                See where your favorite bartenders or chefs eat and drink.
               </Header>
               <p>
-                Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                Donec id elit non mi porta gravida at eget metus. Nullam id
-                dolor id nibh ultricies vehicula ut id elit.
+                
               </p>
               <Button primary size="huge">
                 Learn more
@@ -150,15 +146,13 @@ class Main extends Component {
           <Segment inverted vertical textAlign="center">
             <Container text className="active">
               <Header inverted as="h1">
-                One more for good measure
+                
               </Header>
               <p>
-                Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                Donec id elit non mi porta gravida at eget metus. Nullam id
-                dolor id nibh ultricies vehicula ut id elit.
+                Sign up and have a say.
               </p>
               <Button primary size="huge">
-                Browse gallery
+                Learn More
               </Button>
             </Container>
           </Segment>
@@ -172,7 +166,7 @@ class Main extends Component {
           {/* Section after carousel*/}
               <Grid.Row>
                 <Header dividing size="huge" as="h1">
-                  Write a Review
+                  Write a Review about your worst customer!
                 </Header>
               </Grid.Row>
               <Grid.Row>
