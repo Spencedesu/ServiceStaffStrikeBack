@@ -17,7 +17,7 @@ function ShareStory() {
             </Header>
           </Grid.Row>
           <Grid.Row>
-            <Segment style={{minHeight:400}}>Well Hello There
+            <Segment id="form-section"style={{minHeight:400}}>Well Hello There
 
             </Segment>
             <Segment >Well Hello There</Segment>

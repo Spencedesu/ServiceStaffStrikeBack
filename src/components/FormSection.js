@@ -47,7 +47,7 @@ function handleFormSubmit(event){
 }
 }
   return (
-    <div>
+    <div id="form-section">
       <Form size="huge">
         <Form.Input
           onChange={handleInputChange}
