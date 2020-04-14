@@ -21,9 +21,7 @@ function Responses() {
             <Segment style={{minHeight:400}}>Well Hello There
 
             </Segment>
-            <Segment >Well Hello There</Segment>
-            <Segment >Well Hello There</Segment>
-            <Segment >Well Hello There</Segment>
+
           </Grid.Row>
         </Grid.Column>
       </Grid>
