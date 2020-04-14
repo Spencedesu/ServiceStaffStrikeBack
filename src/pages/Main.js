@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import TopNav from "../components/TopNav";
 import SideNav from "../components/SideNav";
 
+
 import Slider from "react-slick";
 
 
@@ -29,7 +30,7 @@ class Main extends Component {
 
   render() {
     const slickSettings = {
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 4000,
       dots: true,
       speed: 1000,
@@ -106,7 +107,14 @@ class Main extends Component {
               <Slider {...slickSettings} className="slide"> 
               
                         {/* Slide*/}
-          <Segment inverted vertical textAlign="center">
+          <Segment inverted vertical textAlign="center" id="slide1">
+            <div id="space">
+              <div class="stars"></div>
+              <div class="stars"></div>
+              <div class="stars"></div>
+              <div class="stars"></div>
+              <div class="stars"></div>
+            </div>
             <Container text className="active">
               <Header inverted as="h1" style={{fontFamily:'Starjedi'}} >
                 Welcome to SSSB!
@@ -122,7 +130,7 @@ class Main extends Component {
           </Segment>
           
           {/* Slide*/}
-          <Segment inverted vertical textAlign="center" id="slide1">
+          <Segment inverted vertical textAlign="center" id="slide2">
           
             <Container text className="active">
               <Header inverted as="h1" style={{fontFamily:'Top Secret', color: 'firebrick'}}>
@@ -141,9 +149,9 @@ class Main extends Component {
 
 
           {/* Slide*/}
-          <Segment inverted vertical textAlign="center">
+          <Segment inverted vertical textAlign="center" id="slide3">
             <Container text className="active">
-              <Header inverted as="h1" style={{fontFamily:'Starjedi'}} >
+              <Header inverted as="h1" id="glitch" style={{fontFamily:'Starjedi'}} >
                 Strike Back!
               </Header>
               <p>
@@ -156,12 +164,12 @@ class Main extends Component {
           </Segment>
 
           {/* Slide*/}
-          <Segment inverted vertical textAlign="center">
+          <Segment inverted vertical textAlign="center" id="slide4">
             <Container text className="active">
-              <Header inverted as="h1" style={{fontFamily:'Naughty Scratch'}}>
-              Servers <span style={{fontFamily:'Naughty Scratch'}}> Hate...</span>
+              <Header inverted as="h1" style={{fontFamily:'Naughty Scratch', color:"black"}}>
+              Servers  Hate...
               </Header>
-              <p>
+              <p style={{color:"black"}}>
                 Share your BIGGEST peeves of working in the service industry. 
               </p>
               <Button primary size="huge" href="/serversHate">
