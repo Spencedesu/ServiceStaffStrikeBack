@@ -7,9 +7,10 @@ import API from "../utils/API";
 function FormSection(){
 const [postedPost, setPostedPost] = useState([])
 const [postObject, setPostObject] = useState({
-  username:"",
+  name:"",
   establishment:"",
-  description: ""
+  review: "",
+  date: ""
 });
 
 useEffect(() => {
@@ -18,8 +19,10 @@ useEffect(() => {
 
 function loadPosts() {
   API.getPosts()
-  .then(res =>
+  .then(res =>{
+    console.log(res);
    setPostObject(res.data)
+  }
     ).catch(err => console.log(err))
 };
 
@@ -56,7 +59,7 @@ function handleFormSubmit(event){
         <Form.Input
           onChange={handleInputChange}
           name="establishment" 
-          placeholder="establishment"/>
+          placeholder="establishment (optional)"/>
         <Form.TextArea
           onChange={handleInputChange}
           name="review"
@@ -69,14 +72,15 @@ function handleFormSubmit(event){
             Submit your Story</Button>
         </Form>
         {/* Not sure whats going on below this.. */}
-        {postedPost.length ? (
+        {postObject.length ? (
           <List>
-            {postedPost.map(post => {
+            {postObject.map(post => {
               return (
             <ListItem key={post._id}>
               <a href = {"/posts/" + post._id}>
-                <h1>{post.username} commented about {post.establishment}
+                <h1>{post.name} commented about {post.establishment}
                 </h1>
+                <hr></hr>
               </a>
             </ListItem>  
             );
@@ -84,7 +88,7 @@ function handleFormSubmit(event){
             })}
           </List>
         ): (
-          <h3>No Result to Display</h3>
+          <h3>Change on screen</h3>
         )}
         
     </div>
