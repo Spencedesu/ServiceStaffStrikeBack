@@ -112,14 +112,12 @@ class Main extends Component {
               {/* Slide*/}
           <Segment inverted vertical textAlign="center">
             <Container text className="active">
+            
               <Header inverted as="h1">
-                Example headline.
+                Say your piece.
               </Header>
               <p>
-                Note: If you're viewing this page via a <code>file://</code>
-                URL, the "next" and "previous" Glyphicon buttons on the left and
-                right might not load/display properly due to web browser
-                security rules.
+                Have you had a questionably bad review? Sign up and tell your side.
               </p>
               <Button href="./signup" primary size="huge">
                 Sign up today!
@@ -131,12 +129,10 @@ class Main extends Component {
           <Segment inverted vertical textAlign="center">
             <Container text className="active">
               <Header inverted as="h1">
-                Another example headline.
+                Tell the public where bartenders and chefs eat and drink.
               </Header>
               <p>
-                Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                Donec id elit non mi porta gravida at eget metus. Nullam id
-                dolor id nibh ultricies vehicula ut id elit.
+                
               </p>
               <Button primary size="huge">
                 Learn more
@@ -148,12 +144,10 @@ class Main extends Component {
           <Segment inverted vertical textAlign="center">
             <Container text className="active">
               <Header inverted as="h1">
-                One more for good measure
+                Good customer/Bad customer
               </Header>
               <p>
-                Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                Donec id elit non mi porta gravida at eget metus. Nullam id
-                dolor id nibh ultricies vehicula ut id elit.
+                Write a review about a customer, good or bad.
               </p>
               <Button primary size="huge">
                 Browse gallery
