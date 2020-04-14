@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from "react";
-import { TextArea , Input, Form, Button, List, ListItem} from "semantic-ui-react";
+import { Form, Button, List, ListItem} from "semantic-ui-react";
 import API from "../utils/API";
 
 // Look at this stuff particularly !! //

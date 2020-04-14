@@ -7,7 +7,7 @@ import StaffLogo from "../images/Service Staff/servicestaff2.png";
 function TopNav() {
   return(
     <Menu borderless inverted fluid fixed="top">
-          <Menu.Item header as="a">
+          <Menu.Item header as="a" href="/">
           <img src={StaffLogo} style={{width:'100px', height:'35px'}} alt=""/></Menu.Item>
           {/*Below is style for servicestaff2.png --- you would just need to change the Staff logo import above  */}
           {/* <img src={StaffLogo} style={{width:'50px', height:'20px'}}/></Menu.Item> */}

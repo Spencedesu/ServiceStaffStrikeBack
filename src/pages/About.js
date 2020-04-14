@@ -1,6 +1,6 @@
 import React from "react";
 import TopNav from "../components/TopNav";
-import { Header, Grid, Container, Button, Divider, Message} from "semantic-ui-react"
+import { Header, Grid, Container, Divider, Message} from "semantic-ui-react"
 
 function About() {
   return(
@@ -39,7 +39,7 @@ function About() {
 
             </Grid.Column>
             <Grid.Column>
-              <Header as="h1" style={{fontFamily:'Starjedi'}}>Linecook Confessional</Header>
+              <Header as="h1" style={{fontFamily:'Starjedi'}}>Linecook Confidential</Header>
               <p>
                Stories submitted by the service staff. Read others' recounts of horror stories of nightmare patrons and truths of what goes on behind the scenes.
               </p>
