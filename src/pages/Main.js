@@ -12,18 +12,13 @@ import "semantic-ui-css/semantic.min.css";
 import {
   Button,
   Divider,
-  Form,
   Grid,
   Header,
   Icon,
   Input,
-  List,
-  Image,
-  ListItem,
   Menu,
   Container,
   Segment,
-  GridRow,
 } from "semantic-ui-react";
 
 
