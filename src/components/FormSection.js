@@ -78,8 +78,10 @@ function handleFormSubmit(event){
               return (
             <ListItem key={post._id}>
               <a href = {"/posts/" + post._id}>
+                <h2></h2>
                 <h1>{post.name} commented about {post.establishment}
                 </h1>
+                <h2>{post.review}</h2>
                 <hr></hr>
               </a>
             </ListItem>  
