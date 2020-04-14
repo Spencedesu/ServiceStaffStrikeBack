@@ -16,7 +16,7 @@ const itemSeed = [
   },
   {
     name: "Spencer Purcell",
-    establishment: "Cubo",
+    establishment: "Cubo de cuba",
     review:
       "Well, here's the gist of it...",
     date: new Date(Date.now())
