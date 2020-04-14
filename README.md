@@ -1,4 +1,4 @@
-<a href=""><img src="./Line-cook_Confessional/src/images/serviceIndustry2.png" alt="App Logo"></a>
+<a href=""><img src="./Line-cook_Confessional/src/images/readmeLogo.jpg" alt="App Logo"></a>
 
 
 # Service Staff Strike Back
@@ -9,10 +9,20 @@
 
 ***PREVIEW***
 
-[![INSERT YOUR GRAPHIC HERE]("")]()
+<a href=""><img src="./Line-cook_Confessional/src/images/readmePreview.png" alt="Preview"></a>
 
 
 ---
+
+## Built with
+* [React](https://reactjs.org)
+* [Axios](https://www.axios.com)
+* [HTML](https://html.com)
+* [CSS](https://www.w3schools.com/Css)
+* [Javascript](https://www.javascript.com)
+* [JSON](https://www.json.org)
+* [Mongoose](https://mongoosejs.com)
+
 
 **Technologies Used**
 
@@ -63,6 +73,7 @@
 
 ```shell
 $ npm install
+$ npm install axios
 $ npm start
 ```
 
@@ -97,6 +108,7 @@ $ npm start
 
 ## Team
 
+<a href=""><img src="./Line-cook_Confessional/src/images/readmeJedi.png" alt="Team Jedi"></a>
 
 | <a href="https://github.com/Spencedesu" target="_blank">**Spencer**</a>  | <a href="https://github.com/mr-andersen523" target="_blank">**Chase**</a>  | <a href="https://github.com/Jeretc79" target="_blank">**Jeret**</a> | <a href="https://github.com/maxskewes" target="_blank">**Max**</a> |
 | :---: |:---:| :---:| :---:
