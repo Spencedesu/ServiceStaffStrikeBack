@@ -24,8 +24,6 @@ import {
   Container,
   Segment,
   GridRow,
-
-
 } from "semantic-ui-react";
 
 
@@ -115,11 +113,11 @@ class Main extends Component {
           <Segment inverted vertical textAlign="center">
             <Container text className="active">
             
-             <Header inverted as="h1">
-                Say Your Piece.
+              <Header inverted as="h1">
+                Say your piece.
               </Header>
               <p>
-                Been given an unfair review? Say your side of the story.
+                Have you had a questionably bad review? Sign up and tell your side.
               </p>
               <Button href="./signup" primary size="huge">
                 Sign up today!
@@ -131,7 +129,7 @@ class Main extends Component {
           <Segment inverted vertical textAlign="center">
             <Container text className="active">
               <Header inverted as="h1">
-                See where your favorite bartenders or chefs eat and drink.
+                Tell the public where bartenders and chefs eat and drink.
               </Header>
               <p>
                 
@@ -146,13 +144,13 @@ class Main extends Component {
           <Segment inverted vertical textAlign="center">
             <Container text className="active">
               <Header inverted as="h1">
-                
+                Good customer/Bad customer
               </Header>
               <p>
-                Sign up and have a say.
+                Write a review about a customer, good or bad.
               </p>
               <Button primary size="huge">
-                Learn More
+                Browse gallery
               </Button>
             </Container>
           </Segment>
@@ -166,7 +164,7 @@ class Main extends Component {
           {/* Section after carousel*/}
               <Grid.Row>
                 <Header dividing size="huge" as="h1">
-                  Write a Review about your worst customer!
+                  Write a Review
                 </Header>
               </Grid.Row>
               <Grid.Row>
