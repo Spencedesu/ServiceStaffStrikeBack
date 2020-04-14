@@ -1,4 +1,4 @@
-<a href=""><img src="./Line-cook_Confessional/src/images/readmeLogo.jpg" alt="App Logo"></a>
+<a href=""><img src="./Line-cook_Confessional/src/images/readMeLogo.jpg" alt="App Logo"></a>
 
 
 # Service Staff Strike Back
