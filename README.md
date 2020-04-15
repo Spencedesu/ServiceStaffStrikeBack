@@ -36,6 +36,9 @@
 - react
 - react-router-dom
 
+## Deployment
+Click [here](https://still-cove-82320.herokuapp.com/) to check out the app on Heroku. Automatic Deploys are enable so this site will change as the app is updated.
+
 
 ## Table of Contents
 
@@ -76,10 +79,6 @@ $ npm install
 $ npm install axios
 $ npm start
 ```
-
----
-
-## Features
 
 
 ---
