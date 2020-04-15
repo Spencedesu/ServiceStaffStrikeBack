@@ -3,7 +3,7 @@
 
 # Service Staff Strike Back
 
-> An opportunity for service industry professionals to give their perspective on customer interaction.
+> An opportunity for service industry professionals to give their perspective on customer interaction, as well as share stories and read others' recounts.
 
 
 
@@ -37,7 +37,7 @@
 - react-router-dom
 
 ## Deployment
-Click [here](https://still-cove-82320.herokuapp.com/) to check out the app on Heroku. Automatic Deploys are enable so this site will change as the app is updated.
+Click [here](https://still-cove-82320.herokuapp.com/) to check out the app on Heroku. Automatic Deploys are enabled so this site will change as the app is updated.
 
 
 ## Table of Contents
@@ -58,11 +58,6 @@ Click [here](https://still-cove-82320.herokuapp.com/) to check out the app on He
 
 
 ---
-
-## Installation
-
-- All the `code` required to get started
-- Images of what it should look like
 
 ### Clone
 
